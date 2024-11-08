@@ -14,6 +14,7 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
   }
 
   .stat-box {
@@ -60,4 +61,24 @@
     text-align: center;
     width: 150px;
     font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 90%;
+    height: 500px;
+  }
+
+  .stat-box {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .btn-back {
+    width: 130px;
+    font-size: 20px;
+  }
 }
