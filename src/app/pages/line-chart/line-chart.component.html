@@ -1,0 +1,26 @@
+<div class="header">
+    <button class="btn-back" (click)="goBack()">Retour</button>
+  </div>
+  
+  <div class="line-chart-container">
+    <h1>{{ country }}</h1>
+
+    <div class="stats-container">
+      <div class="stat-box">
+        <p>Nombre d'entrées</p>
+        <strong>{{ totalEntries }}</strong>
+      </div>
+      <div class="stat-box">
+        <p>Total des médailles</p>
+        <strong>{{ totalMedals }}</strong>
+      </div>
+      <div class="stat-box">
+        <p>Total des athlètes</p>
+        <strong>{{ totalAthletes }}</strong>
+      </div>
+    </div>
+    <div class="chart">
+      <canvas id="linechart"></canvas>
+    </div>
+  
+  <canvas id="linechart"></canvas>
