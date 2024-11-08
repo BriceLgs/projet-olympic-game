@@ -1,29 +1,41 @@
-# OlympicGamesStarter
+# Projet Olympic Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+Ce projet consiste en une application interactive pour afficher des graphiques relatifs aux pays participants aux Jeux Olympiques, utilisant Chart.js et Angular.
 
-Don't forget to install your node_modules before starting (`npm install`).
+# 🚀 Fonctionnalités
 
-## Development server
+- Affichage des médailles par pays avec un graphique en secteurs (Pie Chart).
+- Affichage des détails sur les pays sélectionnés avec un graphique linéaire (Line Chart).
+- Affichage dynamique du nombre total de pays et de médailles.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies utilisées
+- Angular 18
+- Chart.js
+- RxJS
 
-## Build
+# 📦 Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clonez ce dépôt :
+ - git clone `https://github.com/BriceLgs/projet-olympic-game.git`
 
-## Where to start
+Installez les dépendances :
+- npm install
 
-As you can see, an architecture has already been defined for the project. It is just a suggestion, you can choose to use your own. The predefined architecture includes (in addition to the default angular architecture) the following:
+Lancez l'application :
+- npm start
 
-- `components` folder: contains every reusable components
-- `pages` folder: contains components used for routing
-- `core` folder: contains the business logic (`services` and `models` folders)
+# Lancer l'application
+- Pour démarrer le serveur de développement : "ng serve"
 
-I suggest you to start by understanding this starter code. Pay an extra attention to the `app-routing.module.ts` and the `olympic.service.ts`.
 
-Once mastered, you should continue by creating the typescript interfaces inside the `models` folder. As you can see I already created two files corresponding to the data included inside the `olympic.json`. With your interfaces, improve the code by replacing every `any` by the corresponding interface.
+# 📁 Structure du projet
+- src/ : Contient les fichiers source de l'application.
+- app/core/ : Services et modèles de données.
+- app/pages/ : Composants pour les différentes pages (pie chart, line chart, etc.).
+- assets/ : Contient les données JSON simulées.
 
-You're now ready to implement the requested features.
-
-Good luck!
+# 🛠️ Technologies utilisées
+Angular : Framework principal.
+Chart.js : Création des graphiques interactifs.
+TypeScript : Langage pour une écriture robuste et typée.
+RxJS : Gestion des données en temps réel.
