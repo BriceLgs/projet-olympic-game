@@ -29,6 +29,12 @@
     }
   }
   .chart {
-    max-width: 30%;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
   }
+
+#piechart {
+  width: 40%;
+  height: 40%;
+}

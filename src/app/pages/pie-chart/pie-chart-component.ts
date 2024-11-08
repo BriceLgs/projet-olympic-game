@@ -53,6 +53,8 @@ export class PieChartComponent implements OnInit, OnDestroy {
         ],
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           tooltip: {
             callbacks: {
